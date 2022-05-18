@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.header{
+    padding : 80px;
+    background : rgb(0, 0, 0);
+}
+.btn{
+    border-radius: 25px;
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+    color : rgb(119, 32, 233);
+}
+
+.con{
+    background : #fff;
+}
+
+.card{
+    padding : 10px;
+}
+
+.btn-card2{
+    background : linear-gradient(rgb(128, 17, 219), rgb(159, 14, 196));
+    background-position: ltr;
+    border : none;
+    color : #fff;
+}
+textarea{
+    padding : 30px;
+    outline : none;
+    background : rgb(226, 225, 222);
+    border : none;
+    border-radius: 7px;
+    
+}
+
+.ttop{
+    display : fixed;
+
+}
+.submit{
+    background : rgb(13, 226, 127) !important;
+    border : none !important;
+    width : 30%
+}
+
+span{
+    font-size: 40px !important;
+    border-radius: 50%;
+    color : rgb(255, 0, 221);
+}
+input{
+    border-radius: 25px;
+    border : none;
+    outline : none;
+    background : rgb(226, 225, 222);
+    padding : 3px;
+    text-align : center;
+}
+
+
+
+input, textarea{
+    width : 80%;
+}
+
+body{
+    background : #f7f7f7;
+}
+
+@media screen and (max-width : 767px){
+    .card{
+        margin : 10px;
+    }
+}
